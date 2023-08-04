@@ -3,6 +3,10 @@ package javadayplaner.gui;
 import javax.swing.border.Border;
 import java.awt.*;
 
+/**
+ * The Design class represents the design settings for a graphical user interface.
+ * It encapsulates various properties such as background color, text color, fonts, and borders.
+ */
 public class Design {
 
     private final Color backgroundColor;
@@ -14,8 +18,9 @@ public class Design {
     private final Border borderButtons;
     private final Border borderComponents;
     private final Border borderHeader;
+    private final Color caretColor;
 
-    public Design(Color backgroundColor, Color backgroundColorComponents, Color textColor, Color textColorHeader, Font textFont, Font textFontHeader, Border borderButtons, Border borderComponents, Border borderHeader) {
+    public Design(Color backgroundColor, Color backgroundColorComponents, Color textColor, Color textColorHeader, Font textFont, Font textFontHeader, Border borderButtons, Border borderComponents, Border borderHeader, Color caretColor) {
         this.backgroundColor = backgroundColor;
         this.backgroundColorComponents = backgroundColorComponents;
         this.textColor = textColor;
@@ -25,6 +30,7 @@ public class Design {
         this.borderButtons = borderButtons;
         this.borderComponents = borderComponents;
         this.borderHeader = borderHeader;
+        this.caretColor = caretColor;
     }
 
     public Color getBackgroundColor() {
