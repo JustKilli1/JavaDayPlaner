@@ -1,4 +1,5 @@
-package java_day_planer.base;
+package javadayplaner.base;
+
 
 public class Main {
     public static void main(String[] args) {

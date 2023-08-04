@@ -63,3 +63,5 @@ gradle-app.setting
 .classpath
 .idea/discord.xml
 .idea/workspace.xml
+
+logs
