@@ -23,12 +23,13 @@ public class LoggingUtils {
         ex.printStackTrace(printWriter);
         return strWriter.toString();
     }
-
+    @Deprecated
     /**
      * Utils Method to combine a list of strings into a single string message.
      * @param messages A list of string messages to be combined.
      * @param oneLine Flag indicating whether the messages should be combined into a single line or not.
      * @return A string containing the combined messages.
+     * @deprecated use String#join instead
      */
     public static String getMessageStr(List<String> messages, boolean oneLine) {
         StringBuilder combined = new StringBuilder();

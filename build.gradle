@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'java_day_planer'
-version = '0.0.5-DEV'
+version = '0.0.6-DEV'
 
 repositories {
     mavenCentral()
