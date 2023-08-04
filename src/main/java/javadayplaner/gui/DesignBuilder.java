@@ -14,12 +14,12 @@ public class DesignBuilder {
     private Color backgroundColorComponents;
     private Color textColor;
     private Color textColorHeader;
+    private Color caretColor;
     private Font textFont;
     private Font textFontHeader;
     private Border borderButtons;
     private Border borderComponents;
     private Border borderHeader;
-    private Color caretColor;
 
     public DesignBuilder setBackgroundColor(Color backgroundColor) {
         this.backgroundColor = backgroundColor;
@@ -66,8 +66,9 @@ public class DesignBuilder {
         return this;
     }
 
-    public void setCaretColor(Color caretColor) {
+    public DesignBuilder setCaretColor(Color caretColor) {
         this.caretColor = caretColor;
+        return this;
     }
 
     public Design build() {
